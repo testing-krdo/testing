@@ -14,7 +14,7 @@ info:
     url: https://www.apache.org/licenses/LICENSE-2.0.html
 
 servers:
-  - url: https://locations-service-v2-dev.noprd.eos-stack.cloud
+  - url: https://example.com
     description: "Dev Environment server"
   - url: https://locations-service-v2-test.noprd.eos-stack.cloud
     description: "Test Environment server"
