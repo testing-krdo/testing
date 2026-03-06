@@ -1,14 +1,1 @@
-name: PR Quality Check
 
-on:
-  pull_request:
-    branches: [main, master]
-    paths:
-      - 'api/openapi.yaml'
-
-jobs:
-  api-lint:
-    uses: amitpanwar789/docs/.github/workflows/master-lint.yaml@main
-    secrets: 
-      APP_ID: ${{ secrets.APP_ID }}
-      APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
